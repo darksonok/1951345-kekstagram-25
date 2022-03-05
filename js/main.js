@@ -63,6 +63,7 @@ const RANDOM_DESCRIPTION = [
 ];
 const NUMBER_OF_USERS = 6;
 const NUMBER_OF_RANDOM_COMMENTS = 200;
+const NUMBER_OF_KEKSTAPOSTS = 25;
 const numberOfLikesRange = {
   startFrom: 15,
   endOn: 200
@@ -100,7 +101,7 @@ const createKekstaPosts = (numberOfPosts) => {
   return kekstaPostsArray;
 };
 
-createKekstaPosts(25);
+createKekstaPosts(NUMBER_OF_KEKSTAPOSTS);
 //const generatedKekstaPostsArray = createKekstaPosts(25);
 
 
